@@ -36,7 +36,7 @@ background: #F9A500; */
 .subheading {
     font-size: 18px;
     font-weight: 600;
-    color: #f1c40f;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -48,9 +48,9 @@ background: #F9A500; */
 }
 
 .description {
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px 0;
-    color: #ddd;
+    color:white;
 }
 
 .get-started-btn {

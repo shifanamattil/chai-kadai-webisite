@@ -9,9 +9,10 @@ import Svg2 from "./components/Svg2";
 
 import MenuSection from "./components/MenuSection";
 import Svg3 from "./components/Svg3";
-import DealSection from "./components/DealSection";
-import AboutSection from "./components/AboutSection";
-import TestimonialSection from "./components/TestimonialSection";
+import Section5 from "./components/Section5"
+import FeedbackSection from "./components/Feedback";
+import Section6 from "./components/Section6";
+
 import Footer from "./components/Footer";
 
 function App() {
@@ -25,9 +26,10 @@ function App() {
       <Svg2/>
       <MenuSection />
       <Svg3/>
-      <DealSection />
-      <AboutSection />
-      <TestimonialSection />
+      <Section5/>
+      <FeedbackSection/>
+      <Section6/>
+     
       <Footer />
     </div>
   );

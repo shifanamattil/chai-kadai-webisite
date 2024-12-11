@@ -42,7 +42,7 @@ function ProductMenu() {
                 <span className="original-price">{item.price}</span>
                 <span className="discount-price">{item.discount}</span>
               </div>
-              <div className="discount-tag">-10%</div>
+              <div className="discount-tag"></div>
             </div>
           </div>
         ))}

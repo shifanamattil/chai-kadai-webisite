@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-// import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <div className="header-container">
         {/* Logo */}
         <div className="logo">
-          <img src="https://www.figma.com/design/VyLw1jHJ0uGlLydBefz95g/Chai-Kadai---v1.0?node-id=2-1546" alt="Chai Kadai Logo" />
+          <img src={logo}alt="Chai Kadai Logo" />
         </div>
 
         {/* Navigation Menu */}
