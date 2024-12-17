@@ -82,3 +82,67 @@
     color: #ffa500;
     text-decoration: none;
   }
+
+  @media (max-width: 992px) {
+    .footer-content {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      width: 45%; /* Two items per row */
+      text-align: center;
+    }
+  
+    .newsletter-input {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .newsletter-input input {
+      width: 80%;
+    }
+  
+    .newsletter-input button {
+      width: 50%;
+      max-width: 200px;
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 576px) {
+    .newsletter h2 {
+      font-size: 20px;
+    }
+  
+    .newsletter p {
+      font-size: 14px;
+    }
+  
+    .footer-section {
+      width: 100%; /* Stack all sections */
+      text-align: center;
+    }
+  
+    .footer-section h3 {
+      font-size: 16px;
+    }
+  
+    .footer-section ul li {
+      font-size: 12px;
+    }
+  
+    .newsletter-input input,
+    .newsletter-input button {
+      width: 100%; /* Full width for smaller screens */
+      font-size: 14px;
+    }
+  
+    .social-icons a {
+      font-size: 18px;
+    }
+  
+    .footer-bottom {
+      font-size: 12px;
+    }
+  }

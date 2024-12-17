@@ -144,3 +144,122 @@
         transform: translateY(0);
     }
 }
+
+
+/* Responsive Design */
+
+/* Tablet View */
+@media (max-width: 992px) {
+    .special-deal-section {
+      flex-direction: column;
+      padding: 30px;
+    }
+  
+    .deal-content {
+      margin-left: 0;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .deal-title {
+      font-size: 2.5rem;
+    }
+  
+    .highlighted-text {
+      font-size: 3rem;
+    }
+  
+    .deal-description {
+      font-size: 1.2rem;
+    }
+  
+    .price {
+      font-size: 1.5rem;
+    }
+  
+    .pizza-image {
+      max-width: 200px; /* Reduce image size */
+      left: -30px;
+    }
+  
+    .chilli-image,
+    .tomato-image {
+      max-width: 40px;
+    }
+  
+    .price-tag {
+      font-size: 1.2rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .special-deal-section {
+      padding: 20px;
+    }
+  
+    .deal-title {
+      font-size: 2rem;
+    }
+  
+    .highlighted-text {
+      font-size: 2.5rem;
+    }
+  
+    .deal-description {
+      font-size: 1rem;
+    }
+  
+    .price {
+      font-size: 1.2rem;
+    }
+  
+    .pizza-image {
+      max-width: 150px;
+      left: -20px;
+    }
+  
+    .chilli-image,
+    .tomato-image {
+      max-width: 30px;
+    }
+  
+    .order-btn {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  /* Small Mobile View */
+  @media (max-width: 576px) {
+    .deal-title {
+      font-size: 1.8rem;
+    }
+  
+    .highlighted-text {
+      font-size: 2rem;
+    }
+  
+    .deal-description {
+      font-size: 0.9rem;
+    }
+  
+    .price {
+      font-size: 1rem;
+    }
+  
+    .pizza-image {
+      display: none; /* Hide on very small screens */
+    }
+  
+    .deal-content {
+      text-align: center;
+      align-items: center;
+    }
+  
+    .price-tag {
+      font-size: 1rem;
+      padding: 6px 12px;
+    }
+  }

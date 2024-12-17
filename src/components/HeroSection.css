@@ -1,13 +1,3 @@
-/* Hero Section Styles */
-
-
-/* Primary */
-
-/* position: relative;
-width: 235px;
-height: 235px;
-
-background: #F9A500; */
 
 .hero {
     position: relative;
@@ -15,9 +5,7 @@ background: #F9A500; */
     
     padding: 50px 20px;
     text-align: center;
-    /* overflow: hidden; */
-    /* width: 2000px; */
-    /* height: 2000px; */
+    
 }
 .starting-section{
     background-color:  #F9A500;
@@ -82,22 +70,7 @@ background: #F9A500; */
     height: 300px;
 }
 
-/* .flowing-background {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url("../assets/flowing-shape.svg") repeat-x;
-    background-size: contain;
-    z-index: 0;
-  } */
 
-
-
-
-
-/* Are You Hungry Section */
 .are-you-hungry {
     text-align: center;
     background-color: #000;
@@ -152,13 +125,105 @@ background: #F9A500; */
     margin: 5px 0;
 }
 
-/* Flowing Background */
-/* .flowing-background {
-    position: absolute;
-    bottom: -50px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url("../assets/flowing-shape.svg") repeat-x;
-    background-size: cover;
-  } */
+
+@media (max-width: 992px) {
+    .heading {
+      font-size: 48px; /* Reduce font size for tablets */
+    }
+  
+    .description {
+      font-size: 18px;
+    }
+  
+    .hero-images {
+      gap: 10px;
+    }
+  
+    .juice-img,
+    .chicken-img {
+      width: 350px;
+      height: 250px; /* Adjust image sizes */
+    }
+  
+    .are-you-hungry h2 {
+      font-size: 28px;
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 36px; /* Smaller headings for mobile */
+    }
+  
+    .description {
+      font-size: 16px;
+      margin: 15px 0;
+    }
+  
+    .get-started-btn {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .juice-img,
+    .chicken-img {
+      width: 90%; /* Make images take up most of the screen */
+      height: auto;
+    }
+  
+    .are-you-hungry h2 {
+      font-size: 24px;
+    }
+  
+    .food-card {
+      width: 150px; /* Smaller cards on mobile */
+    }
+  
+    .food-card img {
+      height: 120px;
+    }
+  
+    .food-card h3 {
+      font-size: 16px;
+    }
+  
+    .food-card p {
+      font-size: 12px;
+    }
+  }
+  
+  /* For Small Mobile Devices */
+  @media (max-width: 576px) {
+    .heading {
+      font-size: 28px; /* Further reduce heading size */
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .get-started-btn {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  
+    .juice-img,
+    .chicken-img {
+      width: 100%;
+    }
+  
+    .food-card {
+      width: 100%; /* Full-width cards for small screens */
+      padding: 15px;
+    }
+  
+    .food-card img {
+      height: 100px;
+    }
+  
+    .food-card h3 {
+      font-size: 14px;
+    }
+  }
+

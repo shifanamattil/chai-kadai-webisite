@@ -133,3 +133,89 @@
   .pagination .dot.active {
     background-color: #f90;
   }
+
+
+  /* Responsive Adjustments */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .feedback-title {
+    font-size: 2rem;
+  }
+
+  .feedback-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .feedback-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section, .right-section {
+    width: 50%; /* Adjust size */
+    margin-bottom: 20px; /* Add spacing */
+  }
+
+  .middle-section {
+    width: 100%;
+  }
+
+  .customer-img, .juice {
+    height: 300px; /* Reduce height for smaller screens */
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .feedback-title {
+    font-size: 1.8rem;
+  }
+
+  .feedback-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .left-section, .right-section {
+    width: 70%;
+  }
+
+  .middle-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .customer-img, .juice {
+    height: 250px;
+  }
+
+  .profile-icons img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 576px) {
+  .feedback-title {
+    font-size: 1.5rem;
+  }
+
+  .feedback-subtitle {
+    font-size: 1rem;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .customer-img, .juice {
+    height: 200px;
+  }
+
+  .pagination .dot {
+    width: 8px;
+    height: 8px;
+  }
+}

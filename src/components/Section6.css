@@ -74,3 +74,94 @@ body {
     height: auto;
     /* border-radius: 10px; */
   }
+
+
+
+  /* Responsive Adjustments */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    height: auto; /* Allow height to adjust dynamically */
+  }
+
+  .left, .right {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .quote-button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+
+  .food-image {
+    max-width: 80%;
+  }
+
+  .quality-badge {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  .quote-button {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+
+  .quality-badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+
+  .food-image {
+    max-width: 70%;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 576px) {
+  .main-heading {
+    font-size: 1.2rem;
+  }
+
+  .tagline {
+    font-size: 0.8rem;
+  }
+
+  .quote-button {
+    padding: 8px;
+    font-size: 0.7rem;
+  }
+
+  .quality-badge {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+
+  .food-image {
+    max-width: 60%;
+  }
+}

@@ -51,3 +51,75 @@
     font-size: 14px;
     margin: 5px 0;
 }
+
+
+
+
+
+/* Responsive Design */
+
+/* Tablet View */
+@media (max-width: 992px) {
+    .are-you-hungry h2 {
+      font-size: 28px; /* Reduce heading size for tablets */
+    }
+  
+    .food-card {
+      width: 180px; /* Slightly smaller cards */
+      padding: 15px;
+    }
+  
+    .food-card img {
+      height: 130px; /* Adjust image height */
+    }
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .are-you-hungry {
+      padding: 30px 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .are-you-hungry h2 {
+      font-size: 24px; /* Smaller heading for mobile */
+      margin-bottom: 20px;
+    }
+  
+    .food-items {
+      gap: 15px; /* Reduce gap between cards */
+    }
+  
+    .food-card {
+      width: 150px; /* Smaller cards */
+      padding: 10px;
+    }
+  
+    .food-card img {
+      height: 100px; /* Smaller image height */
+    }
+  
+    .food-card h3 {
+      font-size: 16px;
+    }
+  
+    .food-card p {
+      font-size: 12px;
+    }
+  }
+  
+  /* Small Mobile View */
+  @media (max-width: 576px) {
+    .are-you-hungry h2 {
+      font-size: 20px; /* Further reduce heading size */
+    }
+  
+    .food-card {
+      width: 100%; /* Make cards full-width */
+      max-width: 250px; /* Limit maximum width */
+      margin: 0 auto; /* Center the cards */
+    }
+  
+    .food-card img {
+      height: 120px;
+    }
+  }
