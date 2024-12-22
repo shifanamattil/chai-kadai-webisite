@@ -1,229 +1,259 @@
-
 .hero {
-    position: relative;
-    background-color:  #F9A500;
-    
-    padding: 50px 20px;
-    text-align: center;
-    
+  position: relative;
+  background-color: #F9A500;
+
+  /* padding: 0px 0px; */
+  text-align: center;
+
 }
-.starting-section{
-    background-color:  #F9A500;
-    position: relative;
-    
-    padding: 50px 20px;
+
+.starting-section {
+  background-color: #F9A500;
+  position: relative;
+
+  padding: 10px 10px;
 
 }
 
 .hero-content {
-    z-index: 1;
-    /* color: #fff; */
-    position: relative;
+  z-index: 2;
+  /* color: #fff; */
+  position: relative;
+  align-items: center;
+  /* display: flex; */
 }
 
 .subheading {
-    font-size: 18px;
-    font-weight: 600;
-    color: black;
-    text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 1px;
 }
 
 .heading {
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 1.2;
-    color: #fff;
+  /* font-family: 'Londrina Shadow'; */
+  margin-top: 5px;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 1.2;
+  color:transparent;
+  -webkit-text-stroke: 2.5px #000;
+  /* color: 0 5px 10px rgba(0, 0, 0, 0.1); */
+  /* mix-blend-mode: overlay; */
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .description {
-    font-size: 20px;
-    margin: 20px 0;
-    color:white;
+  margin-top: 10px;
+  font-size: 20px;
+  margin: 20px 0;
+  color: white;
+
 }
 
 .get-started-btn {
-    padding: 12px 30px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .get-started-btn:hover {
-    background-color: #ffcc00;
-    color: #000;
+  background-color: #ffcc00;
+  color: #000;
 }
 
 .hero-images {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+  display: flex;
+  justify-content:center;
+  margin-top: 1px;
 }
 
-.juice-img,
+.juice-img {
+  
+  margin-right: 200px;
+  width: 500px;
+  height: 300px;
+  justify-content:center;
+ 
+}
+
 .chicken-img {
-    width: 450px;
-    height: 300px;
+  width: 350px;
+  height: 300px;
+  justify-content: center;
 }
 
 
 .are-you-hungry {
-    text-align: center;
-    background-color: #000;
-    color: #ffa500;
-    padding: 50px 20px;
+  text-align: center;
+  background-color: #000;
+  color: #ffa500;
+  padding: 50px 20px;
 }
 
-.are-you-hungry h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 30px;
+
+
+/* .are-you-hungry h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .food-items {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .food-card {
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: center;
-    padding: 20px;
-    width: 200px;
-    color: #0d0101;
-    transition: transform 0.3s ease;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  color: #0d0101;
+  transition: transform 0.3s ease;
 }
 
 
 .food-card:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .food-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .food-card h3 {
-    font-size: 18px;
-    margin: 10px 0;
+  font-size: 18px;
+  margin: 10px 0;
 }
 
 .food-card p {
-    color: #ffa500;
-    font-size: 14px;
-    margin: 5px 0;
-}
+  color: #ffa500;
+  font-size: 14px;
+  margin: 5px 0;
+} */
 
 
 @media (max-width: 992px) {
-    .heading {
-      font-size: 48px; /* Reduce font size for tablets */
-    }
-  
-    .description {
-      font-size: 18px;
-    }
-  
-    .hero-images {
-      gap: 10px;
-    }
-  
-    .juice-img,
-    .chicken-img {
-      width: 350px;
-      height: 250px; /* Adjust image sizes */
-    }
-  
-    .are-you-hungry h2 {
-      font-size: 28px;
-    }
-  }
-  
-  /* For Mobile Devices */
-  @media (max-width: 768px) {
-    .heading {
-      font-size: 36px; /* Smaller headings for mobile */
-    }
-  
-    .description {
-      font-size: 16px;
-      margin: 15px 0;
-    }
-  
-    .get-started-btn {
-      padding: 10px 20px;
-      font-size: 14px;
-    }
-  
-    .juice-img,
-    .chicken-img {
-      width: 90%; /* Make images take up most of the screen */
-      height: auto;
-    }
-  
-    .are-you-hungry h2 {
-      font-size: 24px;
-    }
-  
-    .food-card {
-      width: 150px; /* Smaller cards on mobile */
-    }
-  
-    .food-card img {
-      height: 120px;
-    }
-  
-    .food-card h3 {
-      font-size: 16px;
-    }
-  
-    .food-card p {
-      font-size: 12px;
-    }
-  }
-  
-  /* For Small Mobile Devices */
-  @media (max-width: 576px) {
-    .heading {
-      font-size: 28px; /* Further reduce heading size */
-    }
-  
-    .description {
-      font-size: 14px;
-    }
-  
-    .get-started-btn {
-      padding: 8px 16px;
-      font-size: 12px;
-    }
-  
-    .juice-img,
-    .chicken-img {
-      width: 100%;
-    }
-  
-    .food-card {
-      width: 100%; /* Full-width cards for small screens */
-      padding: 15px;
-    }
-  
-    .food-card img {
-      height: 100px;
-    }
-  
-    .food-card h3 {
-      font-size: 14px;
-    }
+  .heading {
+    font-size: 48px;
+    /* Reduce font size for tablets */
   }
 
+  .description {
+    font-size: 18px;
+  }
+
+  .hero-images {
+    gap: 10px;
+  }
+
+  .juice-img,
+  .chicken-img {
+    width: 350px;
+    height: 250px;
+    /* Adjust image sizes */
+  }
+
+  .are-you-hungry h2 {
+    font-size: 28px;
+  }
+}
+
+/* For Mobile Devices */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+    /* Smaller headings for mobile */
+  }
+
+  .description {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+
+  .get-started-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .juice-img,
+  .chicken-img {
+    width: 90%;
+    /* Make images take up most of the screen */
+    height: auto;
+  }
+
+  .are-you-hungry h2 {
+    font-size: 24px;
+  }
+
+  .food-card {
+    width: 150px;
+    /* Smaller cards on mobile */
+  }
+
+  .food-card img {
+    height: 120px;
+  }
+
+  .food-card h3 {
+    font-size: 16px;
+  }
+
+  .food-card p {
+    font-size: 12px;
+  }
+}
+
+/* For Small Mobile Devices */
+@media (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+    /* Further reduce heading size */
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .get-started-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .juice-img,
+  .chicken-img {
+    width: 100%;
+  }
+
+  .food-card {
+    width: 100%;
+    /* Full-width cards for small screens */
+    padding: 15px;
+  }
+
+  .food-card img {
+    height: 100px;
+  }
+
+  .food-card h3 {
+    font-size: 14px;
+  }
+}

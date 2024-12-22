@@ -1,10 +1,13 @@
 /* ProductMenu.css */
 .product-menu {
     background-color: #ffa000;
-    padding: 40px;
+    padding: 100px;
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
+    align-items: center;
+    
+  
   }
   
   .menu-title {
@@ -47,6 +50,8 @@
   }
   .product-grid{
     transform: translateY(-10px);
+
+    
   }
   
   
@@ -62,6 +67,7 @@
     width: 200px;
     color: #0d0101;
     transition: transform 0.3s ease;
+    
 }
 .product-card:hover{
   transform: translateY(-10px);

@@ -1,11 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
-import juiceImage from "../assets/juice.png"; // Replace with actual juice image path
-import chickenImage from "../assets/chicken1.png"; // Replace with actual chicken image path
-// import food1 from "../assets/food1.jpg";
-// import food2 from "../assets/food2.jpg"; // Replace with actual food images
-// import food3 from "../assets/food3.jpg";
-// import food4 from "../assets/food4.jpg";
+import juiceImage from "../assets/juice.png"; 
+import chickenImage from "../assets/chicken1.png";
 
 
 
@@ -21,7 +17,7 @@ function HeroSection() {
                         NEAR YOUR TOWN
                     </h1>
                     <p className="description">
-                        Welcome to our Chai Kadai, where every dish tells a story and every bite is an adventure at our food website.
+                        Welcome to our Chai Kadai, where every dish tells a story <br />and every bite is an adventure at our food website.
                     </p>
                     <button className="get-started-btn">Get Started</button>
                 </div>
