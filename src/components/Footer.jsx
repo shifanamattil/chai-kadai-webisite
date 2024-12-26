@@ -1,10 +1,26 @@
 
 import React from "react";
 import "./Footer.css";
+import pizza from "../assets/quarterpizz.png";
+import tomato from "../assets/tomaato.png";
+import chilli from "../assets/chilly.png";
+import logo from "../assets/logo2.png";
+import { FaInstagram } from "react-icons/fa6";
+import { RiFacebookFill } from "react-icons/ri";
+import { IoLogoTwitter } from "react-icons/io5";
+import { GrLinkedinOption } from "react-icons/gr";
+
+
+
 
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="images-container">
+        <img src={pizza} alt="Pizza" className="pizza-image" />
+        <img src={tomato} alt="Tomato" className="tomato-image" />
+        <img src={chilli} alt="Chili" className="chii-image" />
+      </div>
       <div className="newsletter">
         <h2>Join Our Newsletter</h2>
         <p>Subscribe, follow our newsletter to get more updates</p>
@@ -15,15 +31,16 @@ const Footer = () => {
       </div>
       <div className="footer-content">
         <div className="footer-section logo-section">
-          <h3>Chai Kadai</h3>
+        <img src={logo} alt="Chai Kadai Logo" className="chai-kadai-logo" />
           <p>
             Temporibus autem quibusdam officiis aut rerum necessitatibus eveniet
             voluta repudiandae.
           </p>
           <div className="social-icons">
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="#"><RiFacebookFill/><i className="fab fa-facebook"></i></a>
+            <a href="#"><IoLogoTwitter/><i className="fab fa-twitter"></i></a>
+            <a href="#"><GrLinkedinOption/><i className="fab fa-linkedin"></i></a>
+            <a href="#"><FaInstagram/><i className="fab fa-instagram"></i></a>
           </div>
         </div>
         <div className="footer-section">

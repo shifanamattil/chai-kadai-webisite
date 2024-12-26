@@ -36,28 +36,38 @@
     flex: 1;
     max-width: 45%;
     text-align: right;
+    margin-right:-76px ;
   }
   
   .image-item.fruits img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    border-radius: 8px;
+    /* border-radius: 8px; */
+    margin-right: 200px;
+  
   }
   
   .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0px;
-    justify-content: center;
+    gap: 20px;
+    justify-content:safe;
+
     align-items: center;
     margin-top: 100px;
-    width:97%;
+    width:50%;
+    margin-left: 110px;
+    margin-right: 100px;
+    
+    
   }
   
   .image-item img {
     display: flex;
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    /* margin-left: 48px; */
    
     object-fit: cover;
     /* border-radius: 8px; */
@@ -83,6 +93,7 @@
   .image-grid {
     grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns */
     gap: 10px;
+    
   }
 
   .image-item img {

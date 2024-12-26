@@ -9,6 +9,7 @@ import chickenImage from "../assets/chicken1.png";
 function HeroSection() {
     return (
         <div className="hero">
+           
             <div className="starting-section">
                 <div className="hero-content">
                     <p className="subheading">SPECIAL FOR YOUR BEST CHOICE</p>

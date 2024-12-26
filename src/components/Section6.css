@@ -2,41 +2,56 @@
 body {
     margin: 0%;
     font-family: Arial, sans-serif;
-    background-color: #fefefe;
+    background-color:#000;
   }
   
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ff5722;
+   
     color: white;
-    padding: 20px;
+    padding: 45px;
     height: 36vh;
   }
   
   .left {
-    flex: 1;
-    padding: 20px;
+    background-image: url("../assets/bckground.png");
+    max-width: 900px;
+    height:350px;
+    background-color:rgb(236,61,1);
+    /* flex: 1; */
+    /* padding: 20px; */
+    /* position: relative; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     /* background-color: #ff5722; */
+  }
+  .text{
+    margin-top: 90px;
   }
   
   .tagline {
+    
     font-size: 1.2rem;
+    margin-left: 200px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fdd835;
   }
   
   .main-heading {
-    font-size: 3rem;
-    margin: 20px 0;
+    margin-top: -10px;
+    font-size: 2.5rem;
+    margin-left: 200px;
     line-height: 1.3;
   }
   
   .quote-button {
     background-color: #ffeb3b; /* Yellow button */
     color: #000;
+    margin-left: 200px;
     border: none;
     padding: 15px 20px;
     font-size: 1rem;
@@ -59,23 +74,32 @@ body {
     background-color: #000;
   }
   
+  
+    
+    
+  
+  
+  .food-image {
+    max-width:800px;
+    height: 350px;
+    /* border-radius: 10px; */
+  }
+
   .quality-badge {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: #fdd835; /* Yellow */
+    top: 50%;
+    left: -8px; /* Position overlapping the orange area */
+    transform: translate(-50%, -50%);
+    /* background-color: #fdd835;  */
     color: #000;
     font-weight: bold;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.2rem;
     z-index: 2;
   }
   
-  .food-image {
-    max-width:100%;
-    height: auto;
-    /* border-radius: 10px; */
-  }
 
 
 
